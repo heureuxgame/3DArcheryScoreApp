@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!--  
+    <ImageView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:onClick="webViewSponsor"
+        android:scaleType="fitCenter"
+        android:src="@drawable/banner_ad_1080_180b" />
+
+    <TableRow
+        android:id="@+id/tableRowButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adView"
+        android:layout_marginTop="6dp"
+        android:gravity="fill_horizontal"
+        android:weightSum="3" >
+
+
+-->
+
+<TableRow
+        android:id="@+id/tableRowButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginTop="6dp"
+        android:gravity="fill_horizontal"
+        android:weightSum="3" >
+
+
+        <ImageView
+            android:id="@+id/imageView1Shoot"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_weight="1"
+            android:onClick="setupShoot"
+            android:src="@drawable/b_shoot" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_weight="1"
+            android:onClick="addArcher"
+            android:src="@drawable/b_add" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_weight="1"
+            android:onClick="viewScores"
+            android:src="@drawable/b_view" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRowMainHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tableRowButtons"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="6dp"
+        android:background="@color/Orange"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:weightSum="4" >
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="left"
+            android:text="@string/name"
+            android:textAppearance="@style/scoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewtotal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/total"
+            android:textAppearance="@style/scoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewThru"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/thru"
+            android:textAppearance="@style/scoreTextViewStyle" />
+    </TableRow>
+
+    <ListView
+        android:id="@+id/android:list"
+        style="@style/listViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tableRowMainHeading"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="6dp"
+        android:divider="@color/transparent"
+        android:dividerHeight="6.0sp"
+        android:cacheColorHint="@color/transparent">
+
+    </ListView>
+
+</RelativeLayout>

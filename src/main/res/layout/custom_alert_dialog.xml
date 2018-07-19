@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="24dp"
+    android:background="@drawable/curve_bkg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_title_cust_dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/title"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textIsSelectable="false"
+        android:layout_gravity="center_horizontal">
+    </TextView>
+
+    <TextView
+        android:id="@+id/txt_msg_cust_dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="@string/message"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" >
+    </TextView>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_dialog_stroke"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/divider_dialog"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_dialog_stroke"
+        android:layout_marginRight="@dimen/activity_dialog_stroke" />
+
+    <Button
+        android:id="@+id/btn_pos_cust_dialg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:clickable="true"
+        android:text="@string/postive"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_neg_cust_dialg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:clickable="true"
+        android:text="@string/negative"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_neut_cust_dialg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:clickable="true"
+        android:text="@string/neutral"
+        android:textStyle="bold" />
+
+</LinearLayout>

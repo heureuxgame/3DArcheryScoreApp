@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/border_shaded"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TableRow
+        android:id="@+id/tableRowResultList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewResult1"
+            style="@style/allscoreTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blank"
+            android:textColor="@color/White">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textViewResult2"
+            style="@style/allscoreTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginLeft="4dp"
+            android:gravity="end"
+            android:text="Blank"
+            android:textColor="@color/White">
+
+        </TextView>
+    </TableRow>
+
+    <RelativeLayout
+        android:id="@+id/tableRowP9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ProgressBar
+            android:id="@+id/progressBar9"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/progress_green" />
+
+        <TextView
+            android:id="@+id/textViewP9"
+            style="@style/resultTextViewStyle"
+            android:text="28"
+            android:layout_toLeftOf="@id/progressBar9">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/textViewN9"
+            style="@style/resultCountTextViewStyle"
+            android:layout_toRightOf="@id/progressBar9"
+            android:text="28">
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tableRowP8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ProgressBar
+            android:id="@+id/progressBar8"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/progress_yellow" />
+
+        <TextView
+            android:id="@+id/textViewP8"
+            style="@style/resultTextViewStyle"
+            android:text="8"
+            android:layout_toLeftOf="@id/progressBar8">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textViewN8"
+            style="@style/resultCountTextViewStyle"
+            android:layout_toRightOf="@id/progressBar8"
+            android:text="8">
+
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tableRowP7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ProgressBar
+            android:id="@+id/progressBar7"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/progress_orange" />
+
+        <TextView
+            android:id="@+id/textViewP7"
+            style="@style/resultTextViewStyle"
+            android:layout_toLeftOf="@id/progressBar7"
+            android:text="28">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/textViewN7"
+            style="@style/resultCountTextViewStyle"
+            android:layout_toRightOf="@id/progressBar7"
+            android:text="28">
+
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tableRowP6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ProgressBar
+            android:id="@+id/progressBar6"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/progress_yellow" />
+
+        <TextView
+            android:id="@+id/textViewP6"
+            style="@style/resultTextViewStyle"
+            android:layout_toLeftOf="@id/progressBar6"
+            android:text="28">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/textViewN6"
+            style="@style/resultCountTextViewStyle"
+            android:layout_toRightOf="@id/progressBar6"
+            android:text="28">
+
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tableRowP5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ProgressBar
+            android:id="@+id/progressBar5"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/progress_orange" />
+
+        <TextView
+            android:id="@+id/textViewP5"
+            style="@style/resultTextViewStyle"
+            android:layout_toLeftOf="@id/progressBar5"
+            android:text="28">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/textViewN5"
+            style="@style/resultCountTextViewStyle"
+            android:layout_toRightOf="@id/progressBar5"
+            android:text="28">
+
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tableRowP4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ProgressBar
+            android:id="@+id/progressBar4"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/progress_yellow" />
+
+        <TextView
+            android:id="@+id/textViewP4"
+            style="@style/resultTextViewStyle"
+            android:layout_toLeftOf="@id/progressBar4"
+            android:text="28">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textViewN4"
+            style="@style/resultCountTextViewStyle"
+            android:layout_toRightOf="@id/progressBar4"
+            android:background="@color/transparent"
+            android:text="28">
+
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tableRowP3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/progress_orange" />
+
+        <TextView
+            android:id="@+id/textViewP3"
+            style="@style/resultTextViewStyle"
+            android:layout_toLeftOf="@id/progressBar3"
+            android:text="28">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textViewN3"
+            style="@style/resultCountTextViewStyle"
+            android:layout_toRightOf="@id/progressBar3"
+            android:text="28">
+
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tableRowP2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/progress_yellow" />
+
+        <TextView
+            android:id="@+id/textViewP2"
+            style="@style/resultTextViewStyle"
+            android:layout_toLeftOf="@id/progressBar2"
+            android:text="28">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textViewN2"
+            style="@style/resultCountTextViewStyle"
+            android:layout_toRightOf="@id/progressBar2"
+            android:text="28">
+
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tableRowP1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/progress_orange" />
+
+        <TextView
+            android:id="@+id/textViewP1"
+            style="@style/resultTextViewStyle"
+            android:layout_toLeftOf="@id/progressBar1"
+            android:text="28">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textViewN1"
+            style="@style/resultCountTextViewStyle"
+            android:layout_toRightOf="@id/progressBar1"
+            android:text="28">
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tableRowP0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ProgressBar
+            android:id="@+id/progressBar0"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/progress_red" />
+
+        <TextView
+            android:id="@+id/textViewP0"
+            style="@style/resultTextViewStyle"
+            android:layout_toLeftOf="@id/progressBar0"
+            android:text="28">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textViewN0"
+            style="@style/resultCountTextViewStyle"
+            android:layout_toRightOf="@id/progressBar0"
+            android:text="28">
+
+        </TextView>
+    </RelativeLayout>
+
+    <TableRow
+        android:id="@+id/tableRowB1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Gray"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:id="@+id/textViewB1"
+            style="@style/allscoreBottomTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="@string/x"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewB2"
+            style="@style/allscoreBottomTextViewStyle"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/x"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewB3"
+            style="@style/allscoreBottomTextViewStyle"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="@string/x"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+</LinearLayout>

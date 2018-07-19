@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <!-- ENGLISH -->
+    <string name="app_name">Tournament 3D Archery</string>
+    <string name="action_settings">Settings and Features</string>
+    <string name="shoot_name">Event Name</string>
+    <string name="course_name">Course Name</string>
+    <string name="number_of_targets">Number of targets</string>
+    <string name="save_course">Save Course</string>
+    <string name="save_archer">Save Archer</string>
+    <string name="save_score">Save Score</string>
+    <string name="archer_name">Archer Name</string>
+    <string name="bow_type">Bow Type</string>
+    <string name="division">Division</string>
+    <string name="setup_shoot">Setup Event</string>
+    <string name="home">Main</string>
+    <string name="delete">Delete</string>
+    <string name="yes">Yes</string>
+
+    <!-- Changed -->
+    <string name="email_text">Archery scores exported from the Android app</string>
+    <string name="email_get_app">Get it on Google Play!</string>
+    <!-- Changed -->
+    <string name="app_link" translatable="false">https://play.google.com/store/apps/details?id=com.yaleiden.archeryscorelite</string>
+    <string name="download">Download</string>
+    <string name="email_subject">Archery Scores Export</string>
+    <string name="no">No</string>
+    <string name="attachment_error">Attachment Error. Did you export your data to a file before trying to email?</string>
+    <string name="shoot_">Event:</string>
+    <string name="scoring_">Scoring:</string>
+    <string name="course_">Course:</string>
+    <string name="csv_deleted">ArcheryScores.csv deleted from scoresExport directory of external storgage.</string>
+    <string name="csv_saved">ArcheryScores.csv saved to scoresExport directory in external storgage.</string>
+    <string name="confirm_delete">Confirm delete</string>
+    <string name="clear_shoot">Clear event</string>
+    <string name="confirm_clear">Confirm clear</string>
+    <string name="confirm_clear_shoot">Clear active archers and scores?</string>
+    <string name="score">score</string>
+
+    <string-array name="divisions">
+        <item>Men</item>
+        <item>Women</item>
+        <item>Youth Men</item>
+        <item>Youth Women</item>
+        <item>Senior Men</item>
+        <item>Senior Women</item>
+        <item>Challenged</item>
+        <item>All</item>
+    </string-array>
+
+    <string-array name="bow_type">
+        <item>Compound</item>
+        <item>Traditional</item>
+        <item>Open</item>
+        <item>Crossbow</item>
+        <item>Recurve</item>
+        <item>Longbow</item>
+        <item>Selfbow</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="settingsMenuTitle">
+        <item>Clear current event</item>
+        <item>Export to file</item>
+        <item>Export archive</item>
+        <item>Clear autocomplete</item>
+        <item>Sound</item>
+        <item>Delete csv file</item>
+        <item>Fast mode</item>
+    </string-array>
+    <string-array name="settingsMenuSummary">
+        <item>Delete active archers and scores</item>
+        <item>Export active archers scores to a csv file</item>
+        <item>Export personal archive to a csv file</item>
+        <item>Clear name suggestions in Archer Setup</item>
+        <item>Enable or disable sound effects</item>
+        <item>Delete saved file</item>
+        <item>Reduce user inputs</item>
+    </string-array>
+
+    <string name="select_bow_type">Select bow type</string>
+    <string name="select_scoring">Select scoring</string>
+    <string name="target">Target</string>
+    <string name="x">X</string>
+    <string name="name">Name</string>
+    <string name="total">Total</string>
+    <string name="thru">Thru</string>
+    <string name="cr_yale">Copyright Yale Leiden 2013 ©</string>
+    <string name="help">Help</string>
+    <string name="select_division">Select Division</string>
+    <string name="isaiah">He made my mouth like a sharpened sword, in the shadow of his hand he hid me; he made me into a polished arrow and concealed me in his quiver.
+Isaiah 49:1-3</string>
+    <string name="active_archers">Active archers</string>
+    <string name="long_click_to_email">Long click to email or archive a scorecard</string>
+    <string name="has_completed_50">has completed all 50 targets.  Set up a new event to continue scoring.</string>
+    <string name="has_completed_round">has completed the set round.  Click OK to continue.</string>
+    <string name="round_finished">Round finished</string>
+    <string name="ok">OK</string>
+    <string name="archive">Archive</string>
+    <string name="view_archive">View archive</string>
+    <string name="scorecards">Scorecards</string>
+    <string name="email_or_archive_cards">Email or Archive scorecard</string>
+    <string name="email">Email</string>
+    <string name="email_all">Email all scorecards</string>
+    <string name="delete_archive_scorecard">Delete archived scorecard?</string>
+    <string name="archived_scores">Archived scores</string>
+    <string name="scoring_percentage">Scoring percentage</string>
+    <string name="archer_setup">Archer setup</string>
+    <string name="scores_archived">Scores archived</string>
+    <string name="select_score">Select score</string>
+    <string name="autocomplete_suggestions_cleared">Autocomplete suggestions cleared</string>
+    <string name="total_score">Total score</string>
+    <string name="date">Date</string>
+
+    <string name="export_to_file">Export to file</string>
+    <string name="export_archive">Export archive</string>
+
+    <string name="app_rate">Rate</string>
+    <string name="app_rate_a">If you like the app </string>
+    <string name="app_rate_b">, please take a moment to rate it. Thank you!</string>
+
+    <!-- HELP SECTION -->
+
+    <!-- Changed -->
+    <string name="help1Begin">Create an event, name course and set scoring.</string>
+    <!-- Changed -->
+    <string name="help1Begin2">Add archers; provide a name, bow type and division.</string>
+    <!-- Changed -->
+    <string name="help1Begin3">View active scorecards. Long press a scorecard to archive or share.</string>
+
+    <!-- Changed -->
+    <string name="main_screen_icons">Main Screen Icons</string>
+    <string name="help1">Scorecard: Below is the order of targets on the scorecard.  Long click to email or archive a scorecard.</string>
+    <string name="help2">Entering scores: Select the archer to score. Target selection cycles automatically.  Only use the target selector if you need to edit a previous score.</string>
+    <string name="help3">Archived scores are viewable as a scorecard, chart and summarized list.   To archive a scorecard, long press and select \'Archive\'.</string>
+    <string name="help4">Archive:  Archived scores are viewable as a list, scorecard and scoring percentage chart.</string>
+    <string name="help5">Share:  If you enjoy archery, share it with someone else.</string>
+    <string name="this_is_your_first_target">This is your first target</string>
+    <string name="you_have_completed_50_targets">You have completed 50 targets!</string>
+    <string name="last_target_was">Last target was</string>
+    <string name="email_subject_archive">Archery Archive Scores Export</string>
+    <string name="empty_scorecard">Scorecard is empty</string>
+    <string name="total_targets">Total Targets: </string>
+    <string name="error_reporting">Error reporting</string>
+    <string name="error_usage">Anonomously report errors and usage</string>
+    <string name="news">News</string>
+    <string name="t_scored">scored</string>
+    <string name="t_thru">thru</string>
+    <string name="t_targets_at">targets at</string>
+    <string name="score_stats">Score Statistics:</string>
+    <string name="average">Average</string>
+    <string name="per_arrow">points per arrow</string>
+    <string name="sms">SMS Text</string>
+    <string name="check_sd">Save error. Check device storage permissions.</string>
+    <string name="sound_disabled">Sound disabled</string>
+    <string name="sound_enabled">Sound enabled</string>
+    <string name="fast_mode_enabled">Fast mode enabled</string>
+    <string name="fast_mode_disabled">Fast mode disabled</string>
+
+    <string name="welcome_to_t3d">Welcome to Tournament 3D.</string>
+    <string name="press_setup_icon">Press the setup icon to get started.</string>
+    <string name="change_background">Change background</string>
+
+
+
+    <!-- Tracker Stuff. -->
+    <string name="main_t" translatable="false">Main Activity</string>
+    <string name="view_scores_t" translatable="false">View Scorecards</string>
+    <string name="archive_t" translatable="false">Archive</string>
+    <string name="settings_t" translatable="false">Settings</string>
+    <string name="view_t" translatable="false">viewing</string>
+    <string name="reporting_t" translatable="false">Reporting</string>
+    <string name="reporting_off" translatable="false">report OFF</string>
+    <string name="reporting_on" translatable="false">reporting ON</string>
+    <string name="send_email_t" translatable="false">Send Email</string>
+    <string name="csv_email_t" translatable="false">Email CSV</string>
+    <string name="all_score_email_t" translatable="false">Email all cards</string>
+    <string name="one_score_email_t" translatable="false">Email one card</string>
+    <string name="archive_score_t" translatable="false">Archive Score</string>
+    <string name="send_sms_t" translatable="false">Send SMS</string>
+    <string name="fast_mode_t" translatable="false">Fast mode</string>
+    <string name="fast_mode_off" translatable="false">fast mode OFF</string>
+    <string name="fast_mode_on" translatable="false">fast mode ON</string>
+    <string name="background_t" translatable="false">Background</string>
+    <string name="dual_pane_t" translatable="false">Dual pane</string>
+    <string name="dual_main_t" translatable="false">Dual Main</string>
+    <string name="dual_view_t" translatable="false">Dual View</string>
+
+    <string name="title" translatable="false">Title</string>
+    <string name="message" translatable="false">Message</string>
+    <string name="postive" translatable="false">Positive</string>
+    <string name="negative" translatable="false">Negative</string>
+    <string name="neutral" translatable="false">Neutral</string>
+
+</resources>

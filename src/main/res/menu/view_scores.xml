@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_email"
+        android:title="@string/email_all"
+        android:orderInCategory="20"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_archive"
+        android:title="@string/view_archive"
+        android:orderInCategory="30"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_main_page"
+        android:title="@string/home"
+        android:orderInCategory="40"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_help"
+        android:title="@string/help"
+        android:orderInCategory="50"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_export"
+        android:title="@string/export_to_file"
+        android:orderInCategory="200"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="300"
+        app:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+
+</menu>

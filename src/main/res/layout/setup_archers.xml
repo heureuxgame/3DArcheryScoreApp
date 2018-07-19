@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewArcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:ems="10"
+            android:text="@string/archer_name"
+            android:textAppearance="@style/headingTextViewOrangeStyle"
+            android:textColor="@color/Orange" />
+
+        <AutoCompleteTextView
+            android:id="@+id/AutoCompleteArcher"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin_indent"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/back"
+            android:completionThreshold="1"
+            android:hint="@string/archer_name"
+            android:inputType="textCapWords"
+            android:lines="1"
+            android:paddingBottom="2dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="2dp"
+            android:textColor="@color/White"
+            android:textSize="22sp"
+            />
+
+        <TextView
+            android:id="@+id/textViewType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:text="@string/bow_type"
+            android:textAppearance="@style/headingTextViewOrangeStyle"
+            android:textColor="@color/Orange" />
+
+        <Spinner
+            android:id="@+id/spinnerBowType"
+            style="@style/spinnerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin_indent"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="8dp"
+            android:entries="@array/bow_type"
+            android:paddingBottom="10dp"
+            android:prompt="@string/select_bow_type" />
+
+        <TextView
+            android:id="@+id/textViewDivision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:text="@string/division"
+            android:textAppearance="@style/headingTextViewOrangeStyle"
+            android:textColor="@color/Orange" />
+
+        <Spinner
+            android:id="@+id/spinnerDivision"
+            style="@style/spinnerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin_indent"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="8dp"
+            android:entries="@array/divisions"
+            android:paddingBottom="10dp"
+            android:prompt="@string/select_division" />
+
+        <Button
+            android:id="@+id/buttonArchers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:onClick="saveArcher"
+            android:text="@string/save_archer" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/border" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewshoot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="10dp"
+                    android:textAppearance="@style/allscoreTextViewStyle" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewcourse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:textAppearance="@style/allscoreTextViewStyle" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewtargets"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:textAppearance="@style/allscoreTextViewStyle" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewScoring"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:textAppearance="@style/allscoreTextViewStyle" />
+
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+</ScrollView>

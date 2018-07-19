@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableRowSummary"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="fill_horizontal"
+    android:background="@drawable/border"
+    android:gravity="fill"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="8dp"
+    android:weightSum="4">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_weight="2"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceMediumInverse"
+        android:textColor="@color/White"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMediumInverse"
+        android:textColor="@color/White"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/lastTargetTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:textAppearance="?android:attr/textAppearanceMediumInverse"
+        android:textColor="@color/White"
+        android:textSize="26sp" />
+
+</TableRow>

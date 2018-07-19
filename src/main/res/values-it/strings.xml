@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Torneo 3D Archer</string>
+    <string name="action_settings">Impostazioni e funzionalità</string>
+    <string name="shoot_name">Evento Nome</string>
+    <string name="course_name">Nome del corso</string>
+    <string name="number_of_targets">Numero di obiettivi</string>
+    <string name="save_course">Salva Corso</string>
+    <string name="save_archer">Salva Archer</string>
+    <string name="save_score">Salva Punteggio</string>
+    <string name="archer_name">Archer Nome</string>
+    <string name="bow_type">Tipo di Bow</string>
+    <string name="division">Divisione</string>
+    <string name="setup_shoot">Imposta Evento</string>
+    <string name="home">Principale</string>
+    <string name="delete">Cancella</string>
+    <string name="yes">Sì</string>
+
+    <!-- Changed -->
+    <string name="email_text">Punteggi Tiro con l\'arco esportate dalla app Android</string>
+    <string name="email_get_app">Scarica su Google Play! http://play.google.com/store/apps/details?id=com.yaleiden.archeryscorelite</string>
+    <string name="download">Scarica</string>
+    <string name="email_subject">I punteggi Archery Export</string>
+    <string name="no">No</string>
+    <string name="attachment_error">Errore attaccamento. Hai esportare i dati in un file prima di tentare di posta elettronica?</string>
+    <string name="shoot_">Evento:</string>
+    <string name="scoring_">Punteggio:</string>
+    <string name="course_">Corso:</string>
+    <string name="csv_deleted">ArcheryScores.csv cancellati dalla scoresExport directory di storgage esterno.</string>
+    <string name="csv_saved">ArcheryScores.csv salvato scoresExport directory di storgage esterno.</string>
+    <string name="confirm_delete">Conferma eliminazione</string>
+    <string name="clear_shoot">Cancella evento</string>
+    <string name="confirm_clear">Conferma cancella</string>
+    <string name="confirm_clear_shoot">Cancella arcieri attivi e punteggi?</string>
+    <string name="score">punteggio</string>
+
+    <string-array name="divisions">
+        <item>Maschi</item>
+        <item>Donne</item>
+        <item>Uomini gioventù</item>
+        <item>Donne gioventù</item>
+        <item>Uomini anziani</item>
+        <item>Donne anziane</item>
+        <item>Sfidato</item>
+        <item>Tutto</item>
+    </string-array>
+    
+ 
+    <string-array name="bow_type">
+        <item>Compound</item>
+        <item>Traditional</item>
+        <item>Open</item>
+        <item>Crossbow</item>
+        <item>Recurve</item>
+        <item>Longbow</item>
+        <item>Selfbow</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="settingsMenuTitle">
+        <item>Chiaro tirare corrente</item>
+        <item>Esportazione di file</item>
+        <item>Archivio export</item>
+        <item>Cancella autocomplete</item>
+        <item>Suono</item>
+        <item>Cancella file csv</item>
+        <item>Modalità veloce</item>
+    </string-array>
+    
+    <string-array name="settingsMenuSummary">
+        <item>Eliminare arcieri attivi e punteggi</item>
+        <item>Export attivi arcieri colonne in un file csv</item>
+        <item>Esporta archivio personale in un file csv</item>
+        <item>Suggerimenti di nomi chiari in Setup Archer</item>
+        <item>Attivare o disattivare gli effetti sonori</item>
+        <item>Elimina file salvato</item>
+        <item>Ridurre input dell\'utente</item>
+    </string-array>
+
+    <string name="select_bow_type">Seleziona il tipo di arco</string>
+    <string name="select_scoring">Selezionare punteggio</string>
+    <string name="target">Obiettivo</string>
+    <string name="x">X</string>
+    <string name="name">Nome</string>
+    <string name="total">Totale</string>
+    <string name="thru">Thru</string>
+    <string name="cr_yale">Copyright Yale Leiden 2013 ©</string>
+    <string name="help">Aiuto</string>
+    <string name="select_division">Selezionare Division</string>
+    <string name="isaiah">Ha reso la mia bocca come spada affilata, all\'ombra della sua mano mi ha nascosto, mi ha reso freccia lucido e mi ha riposto nella sua faretra.
+Isaiah 49:1-3</string>
+    <string name="active_archers">Arcieri attivi</string>
+    <string name="long_click_to_email">Lungo click per e-mail o archiviare una scorecard</string>
+    <string name="has_completed_50">ha completato tutti i 50 bersagli. Impostare un nuovo germoglio per continuare a segnare.</string>
+    <string name="has_completed_round">ha completato il round set. Fare clic su OK per continuare.</string>
+    <string name="round_finished">Finito rotondo</string>
+    <string name="ok">OK</string>
+    <string name="archive">Archivio</string>
+    <string name="view_archive">Vista archivio</string>
+    <string name="scorecards">Scorecards</string>
+    <string name="email_or_archive_cards">Email o Archive scorecard</string>
+    <string name="email">Email</string>
+    <string name="email_all">E-mail tutti scorecard</string>
+    <string name="delete_archive_scorecard">Elimina scorecard archiviato</string>
+    <string name="archived_scores">Punteggi archiviati</string>
+    <string name="scoring_percentage">Segnando percentuale</string>
+    <string name="archer_setup">Installazione Archer</string>
+    <string name="scores_archived">Scores archiviate</string>
+    <string name="select_score">Seleziona punteggio</string>
+    <string name="autocomplete_suggestions_cleared">Suggerimenti di completamento automatico liquidati</string>
+    <string name="total_score">Punteggio totale</string>
+    <string name="date">Date</string>
+
+    <!-- HELP SECTION -->
+
+
+    <!-- Changed -->
+    <string name="help1Begin">Creare un germoglio, naturalmente nome e set di punteggio.</string>
+    <!-- Changed -->
+    <string name="help1Begin2">Aggiungi arcieri, fornire un nome, arco tipo e divisione.</string>
+    <!-- Changed -->
+    <string name="help1Begin3">Mostra scorecard attivi. Premere a lungo una scorecard per archiviare o condividere.</string>
+
+    <!-- Changed -->
+    <string name="main_screen_icons">Principali Icone dello schermo</string>
+    <string name="help1">Scorecard: Di seguito è riportato l\'ordine di obiettivi sulla scorecard. Lungo clic per email o archiviare una scorecard.</string>
+    <string name="help2">Entrando punteggi: Selezionare l\'arciere per segnare. Indirizzare automaticamente i cicli di selezione. Utilizzare il selettore di destinazione solo se è necessario per modificare un punteggio precedente.</string>
+    <string name="help3">Colonne sonore archiviati sono visibili come una scorecard, grafico e elenco riepilogativo. Per archiviare una scorecard, premere a lungo e selezionare \'archivio\'.</string>
+    <string name="help4">Archive: colonne sonore Archiviato sono visualizzabili come elenco, scorecard e il grafico percentuale di punteggio.</string>
+    <string name="help5">Condividi: Se vi piace il tiro con l\'arco, condividerla con qualcun altro.</string>
+    <string name="this_is_your_first_target">Questo è il vostro primo obiettivo</string>
+    <string name="you_have_completed_50_targets">Hai completato 50 obiettivi!</string>
+    <string name="last_target_was">Ultimo obiettivo era</string>
+    <string name="email_subject_archive">Tiro con l\'arco Archivio punteggi Esportare</string>
+    <string name="empty_scorecard">Scorecard è vuoto</string>
+    <string name="total_targets">Totale Obiettivi: </string>
+    <string name="error_reporting">Messaggio di errore</string>
+    <string name="error_usage">Segnala errori Anonomously e l\'uso</string>
+    <string name="news">Notizie</string>
+    <string name="t_scored">segnato</string>
+    <string name="t_thru">per</string>
+    <string name="t_targets_at">obiettivi a</string>
+
+    <!-- Changed -->
+
+    <string name="score_stats">Punteggio Statistiche:</string>
+    <string name="average">Media</string>
+    <string name="per_arrow">punti per freccia</string>
+    
+    <string name="sms">SMS Text</string>
+    <string name="check_sd">Errore. Controllare la scheda SD.</string>
+
+    <string name="welcome_to_t3d">Benvenuti al Torneo 3D.</string>
+    <string name="press_setup_icon">Premere l\'icona di setup per iniziare.</string>
+    <string name="change_background">Cambiare sfondo</string>
+    
+    <string name="export_to_file">Esportazione di file</string>
+    <string name="export_archive">Archivio export</string>
+
+    <string name="app_rate">Valutare</string>
+    <string name="app_rate_a">Se vi piace usare </string>
+ <string name="app_rate_b">, si prega di prendere un momento per votarla. Grazie per il vostro supporto!</string>
+
+    <string name="fast_mode_enabled">Modalità fast abilitato</string>
+    <string name="fast_mode_disabled">Modalità fast disabilitato</string>
+
+</resources>

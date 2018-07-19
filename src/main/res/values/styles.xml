@@ -1,0 +1,245 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+
+
+    -->
+
+    <style name="ThemeBase" parent="Theme.AppCompat">
+
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="android:spinnerStyle">@style/spinnerStyle</item>
+        <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItem</item>
+        <item name="android:buttonStyle">@style/btnStyleOrange</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+
+
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppBaseTheme" parent="ThemeBase">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- Setting values in the default namespace affects API levels 7-13 -->
+
+
+
+    <style name="BkgZero">
+        <item name="android:windowBackground">@drawable/bk_seamless_carbon_fiber</item>
+    </style>
+
+    <style name="BkgOne">
+        <item name="android:windowBackground">@drawable/bk_imc</item>
+    </style>
+
+    <style name="BkgTwo">
+        <item name="android:windowBackground">@drawable/bk_catd</item>
+    </style>
+
+    <style name="BkgThree">
+        <item name="android:windowBackground">@drawable/bk_chick_rainbowd</item>
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <!--
+        <item name="backgroundStacked">@drawable/abc_ab_stacked_solid_dark_holo</item>
+        <item name="backgroundSplit">@drawable/abc_ab_bottom_solid_dark_holo</item>
+        -->
+        <!-- <item name="background">@drawable/header90</item> -->
+        <item name="background">@color/Blue</item>
+    </style>
+
+    <style name="btnStyleOrange" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/apptheme_btn_default_holo_dark</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@drawable/back</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <style name="archerSpinnerStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <style name="ArcherNameTextViewStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="headingTextViewStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="headingTextViewOrangeStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:textColor">@color/Orange</item>
+        <item name="android:shadowColor">@color/Black</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+
+    <style name="scoreTextViewStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">28dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="allscoreTextViewStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+    </style>
+
+    <style name="twitterTextViewStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="allscoreBottomTextViewStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#E0E0E0</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+    </style>
+
+    <style name="listViewStyle">
+        <item name="android:divider">@drawable/divider</item>
+        <item name="android:dividerHeight">1px</item>
+    </style>
+
+    <style name="EditTextAppTheme" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/edit_text_holo_dark</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="spinnerStyle">
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/apptheme_spinner_background_holo_dark</item>
+    </style>
+
+    <style name="SpinnerItem">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="SpinnerDropDownItem">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#000000</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+    </style>
+
+    <style name="SpinnerDropDownItemScore">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/circle</item>
+    </style>
+
+    <style name="FooterRowStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:background">@color/Blue</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+    </style>
+
+    <style name="FooterRowTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/cr_yale</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+    <style name="HelpColumnStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="resultTextViewStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">30dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="resultCountTextViewStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">30dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:textColor">@color/result_count</item>
+    </style>
+
+    <style name="Dialog_No_Border">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="ListViewData" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!--
+        <item name="android:textColor">@color/dark_blue_gray</item>
+        <item name="android:layout_marginRight">@dimen/cloud_view_margin</item>
+        <item name="android:textSize">@dimen/text_listview_medium</item>
+        -->
+    </style>
+
+</resources>

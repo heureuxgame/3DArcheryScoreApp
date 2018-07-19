@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <TableRow
+        android:id="@+id/tableRowFooter"
+        style="@style/FooterRowStyle" >
+
+        <TextView
+            android:id="@+id/textViewTdiv"
+            style="@style/FooterRowTextStyle" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textViewQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tableRowFooter"
+        android:layout_gravity="fill_vertical|center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="8dp"
+        android:text="@string/isaiah"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Orange"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutE2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/textViewQuote"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutE1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/LinearLayoutE2"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/LinearLayoutE1"
+        android:layout_alignParentTop="true"
+        android:cacheColorHint="@android:color/transparent"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+    </ListView>
+
+
+
+</RelativeLayout>

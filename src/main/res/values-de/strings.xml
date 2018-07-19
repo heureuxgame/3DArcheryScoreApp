@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tournament 3D Archery</string>
+    <string name="action_settings">Einstellungen und Optionen</string>
+    <string name="shoot_name">Event</string>
+    <string name="course_name">Parcours</string>
+    <string name="number_of_targets">Anzahl der Ziele</string>
+    <string name="save_course">Parcours speichern</string>
+    <string name="save_archer">Schütze speichern</string>
+    <string name="save_score">Score speichern</string>
+    <string name="archer_name">Name des Schützen</string>
+    <string name="bow_type">Bogen Typ</string>
+    <string name="division">Klasse</string>
+    <string name="setup_shoot">Einrichtung Event</string>
+    <string name="home">Home</string>
+    <string name="delete">Löschen</string>
+    <string name="yes">Ja</string>
+
+    
+    <!-- Changed -->
+    <string name="email_text">Die Auswertung wurde erstellt von:</string>
+    <string name="email_get_app">Hol\' dir die App auf Google Play! http://play.google.com/store/apps/details?id=com.yaleiden.archeryscorelite</string>
+    <!-- Changed -->
+    <string name="download">Download</string>
+    <string name="email_subject">Archery Scores Export</string>
+    <string name="no">Nein</string>
+    <string name="attachment_error">Fehler Anhang. Wurden die Daten vor dem Mailversuch exportiert?</string>
+    <string name="shoot_">Event:</string>
+    <string name="scoring_">Wertung:</string>
+    <string name="course_">Parcours:</string>
+    <string name="csv_deleted">ArcheryScores.csv wurde vom "scoresExport-Verzeichnis"auf dem exteren Speicher gelöscht.</string>
+    <string name="csv_saved">ArcheryScores.csv wurde in das "scoresExport-Verzeichnis"auf dem exteren Speicher gespeichert.</string>
+    <string name="confirm_delete">Schütze löschen?</string>
+    <string name="clear_shoot">Event löschen</string>
+    <string name="confirm_clear">Löschen bestätigen</string>
+    <string name="confirm_clear_shoot">aktive Schützen und Wertungen löschen?</string>
+    <string name="score">Wertung</string>
+
+    <string-array name="settingsMenuTitle">
+        <item>aktuelles Event löschen</item>
+        <item>In Datei exportieren</item>
+        <item>Archiv exportieren</item>
+        <item>Autovervollständigung löschen</item>
+        <item>Sound-Effekte</item>
+        <item>CSV-Datei löschen</item>
+        <item>Schneller modus</item>
+    </string-array>
+    <string-array name="settingsMenuSummary">
+        <item>aktuelle Schützen und Wertungen löschen</item>
+        <item>aktuelle Schützen und Wertungen als CSV-Datei speichern</item>
+        <item>Exportiet das persönliche Archiv in eine CSV-Datei</item>
+        <item>Löschte die Namensvorschläge bei der Schützeneinrichtung</item>
+        <item>Aktivieren oder Deaktivieren von Sound-Effekte</item>
+        <item>aktuelle CSV-Datei löschen</item>
+        <item>Reduzieren Sie Benutzereingaben</item>
+    </string-array>
+
+    <string name="select_bow_type">Bogen Typ</string>
+    <string name="select_scoring">Wertungssystem auswählen</string>
+    <string name="target">Ziel</string>
+    <string name="name">Name</string>
+    <string name="total">Summe</string>
+    <string name="thru">bis</string>
+    <string name="cr_yale">Copyright Yale Leiden 2013 ©</string>
+    <string name="help">Hilfe</string>
+    <string name="select_division">Klasse</string>
+    <string name="active_archers">Active Schützen</string>
+    <string name="long_click_to_email">Drücken Sie lange auf den Bildschirm um die Scorecard zu archivieren oder zu speichern.</string>
+    <string name="has_completed_50">hat alle 50 Ziele abgeschlossen. Erstellen Sie ein neues Event um mit der Wertung for zu fahren.</string>
+    <string name="has_completed_round">hat die Runde abgeschlossen. Click OK um fort zu fahren.</string>
+    <string name="round_finished">Runde abgeschlossen</string>
+    <string name="ok">OK</string>
+    <string name="archive">Archive</string>
+    <string name="view_archive">Sehen sie das archiv</string>
+    <string name="scorecards">Scorecards</string>
+    <string name="email_or_archive_cards">Scorecard archivieren oder mailen</string>
+    <string name="email">E-Mail</string>
+    <string name="email_all">E-Mail an alle Scorecard</string>
+    <string name="delete_archive_scorecard">archivierte Scorecard löschen</string>
+    <string name="archived_scores">archivierte Wertungen</string>
+    <string name="scoring_percentage">Wertung in %</string>
+    
+    <string name="scores_archived">Wertungen wurden archiviert</string>
+    <string name="select_score">Wertung auswählen</string>
+    <string name="archer_setup">Schützen Setup</string>
+    <string name="autocomplete_suggestions_cleared">Vorschläge der Autovervollständigung gelöscht</string>
+    <string name="total_score">Erreichte Punkteanzahl</string>
+    <string name="date">Datum</string>
+
+    <!-- HELP SECTION -->
+
+
+    <!-- Changed -->
+    <string name="help1Begin">Richten Sie ihr Event ein. Eventname, Parcours, Anzahl der Ziele und das Wertungssystem.</string>
+    <!-- Changed -->
+    <string name="help1Begin2">Erstellen Sie die Schützen. Name, Bogentyp, Klasse</string>
+    <!-- Changed -->
+    <string name="help1Begin3">Ansicht ihrer aktuellen Scorecards. Drücken Sie lange auf den Bildschirm um die Scorecard zu archivieren oder zu speichern.</string>
+
+    <!-- Changed -->
+    <string name="main_screen_icons">Icons am Hautpbidschirm</string>
+    <string name="help1">Scorecard: In aufsteigender Reihenfolge finden Sie hier die Punkte der einzelnen Ziele. Drücken Sie lange auf den Bildschirm um die Scorecard zu archivieren oder zu speichern.</string>
+    <string name="help2">Eingabe der Punkte: Wählen Sie den Schützen. Das das aktuelle Ziel erhöht sich von selbst. Müssen sie eine Wertung nachträglich korrigieren kann das betreffende Ziel auch manuell ausgewählt werden.</string>
+    <string name="help3">Archivierte Wertungen werden als Scorecard, Chart und Gesamtsumme angezeigt.Um eine Scorecard zu archivieren drüchen Sie lange auf den Bildschirm.</string>
+    <string name="help4">Archive: Archivierte Wertungen werden als Liste, Scorecard in \% angezeigt.</string>
+    <string name="help5">Share:  If you enjoy archery, share it with someone else.</string>
+    <string name="this_is_your_first_target">Das ist ihr erstes Ziel</string>
+    <string name="you_have_completed_50_targets">Sie haben alle 50 Ziele abgeschlossen!</string>
+    <string name="last_target_was">Das letzte Ziel war</string>
+    <string name="email_subject_archive">Archery Archive Scores Export</string>
+    <string name="empty_scorecard">Scorecard ist leer</string>
+    <string name="total_targets">Summe der Ziele: </string>
+    <string name="error_reporting">Fehlermeldung</string>
+    <string name="error_usage">Anonymen Fehlerbericht und Nutzung bereit stellen</string>
+    <string name="news">News</string>
+    <string name="t_scored">erreichte</string>
+    <string name="t_thru">mit</string>
+    <string name="t_targets_at">Zielen beim</string>
+    <string name="score_stats">Wertungsstatistik:</string>
+    <string name="average">Durchschnitt</string>
+    <string name="per_arrow">Punkte pro Pfeil</string>
+    <string name="sms">SMS Text</string>
+    <string name="check_sd">Fehler. Überprüfen Sie SD-Karte.</string>
+
+    <!-- OLD TRANSLATION -->
+    <!-- OLD TRANSLATION -->
+
+    
+
+    
+
+    <string-array name="divisions">
+        <item>Männer</item>
+        <item>Frauen</item>
+        <item>Jugend männlich</item>
+        <item>Jugend weiblich</item>
+        <item>Älterer Mann</item>
+        <item>Ältere Frau</item>
+        <item>Herausgefordert</item>
+        <item>Alle</item>
+    </string-array>
+    
+ 
+    
+    <string-array name="bow_type">
+        <item>Compound</item>
+        <item>Traditional</item>
+        <item>Offen</item>
+        <item>Armbrust</item>
+        <item>Recurve</item>
+        <item>Langbogen</item>
+        <item>Selfbow</item>
+        <item>Sonstige</item>
+    </string-array>
+    
+    
+    <string name="isaiah">He made my mouth like a sharpened sword, in the shadow of his hand he hid me; he made me into a polished arrow and concealed me in his quiver.
+Isaiah 49:1-3</string>
+    
+
+    <string name="welcome_to_t3d">Willkommen bei Turnier 3D.</string>
+    <string name="press_setup_icon">Um zu beginnen drücken Sie die Setup-Symbol.</string>
+    <string name="change_background">Hintergrund ändern</string>
+
+    <!--
+    <string name="export_to_file">In Datei exportieren</string>
+    <string name="export_archive">Archiv exportieren</string>
+      -->
+    <string name="app_rate">Bewerten</string>
+    <string name="app_rate_a">Wenn Sie gerne über </string>
+ <string name="app_rate_b">, nehmen Sie sich bitte einen Moment Zeit, um zu bewerten. Vielen Dank für Ihre Unterstützung!</string>
+
+
+    <string name="fast_mode_enabled">Schnell-modus aktiviert</string>
+    <string name="fast_mode_disabled">Schnell-modus deaktiviert</string>
+   
+</resources>

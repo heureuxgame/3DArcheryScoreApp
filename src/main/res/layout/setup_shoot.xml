@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<RelativeLayout
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewshoot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="2dp"
+        android:ems="10"
+        android:text="@string/shoot_name"
+        android:textAppearance="@style/headingTextViewOrangeStyle"
+        android:textColor="@color/Orange" />
+
+    <AutoCompleteTextView
+        android:id="@+id/AutoCompleteShoot"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewshoot"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_indent"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/back"
+        android:completionThreshold="1"
+        android:hint="@string/shoot_name"
+        android:inputType="textCapWords"
+        android:lines="1"
+        android:paddingBottom="2dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="2dp"
+        android:textColor="@color/White"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/AutoCompleteShoot"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:text="@string/course_name"
+        android:textAppearance="@style/headingTextViewOrangeStyle"
+        android:textColor="@color/Orange" />
+
+    <EditText
+        android:id="@+id/editTextCourse"
+        style="@style/EditTextAppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCourse"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_indent"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textCapWords"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewTargets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCourse"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:text="@string/number_of_targets"
+        android:textAppearance="@style/headingTextViewOrangeStyle"
+        android:textColor="@color/Orange" />
+
+    <EditText
+        android:id="@+id/editTextTargets1"
+        style="@style/EditTextAppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTargets"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_indent"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="8dp"
+        android:inputType="number"
+        android:minEms="4"
+        android:textSize="24sp" />
+    
+    <TextView
+        android:id="@+id/textViewScores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTargets1"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:text="@string/select_scoring"
+        android:textAppearance="@style/headingTextViewOrangeStyle"
+        android:textColor="@color/Orange" />
+    
+    <Spinner
+        android:id="@+id/spinnerScores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewScores"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_indent"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        android:padding="4dp" />
+
+    <Button
+        android:id="@+id/buttonSaveScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerScores"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginTop="16dp"
+        android:onClick="saveShoot"
+        android:text="@string/save_course" />
+
+</RelativeLayout>
+</ScrollView>

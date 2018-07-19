@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearLayoutViewScorecards">
+
+    <TableRow
+        android:id="@+id/tableRowButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:weightSum="2" >
+
+        <ImageView
+            android:id="@+id/imageViewStat"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:onClick="changeStatView"
+            android:src="@drawable/ba_list_g" />
+
+        <ImageView
+            android:id="@+id/imageViewCard"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:onClick="changeStatView"
+            android:src="@drawable/ba_card" />
+
+
+
+    </TableRow>
+
+    <LinearLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="110"
+        app:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/menu_main_page"
+        android:title="@string/home"
+        android:orderInCategory="10"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_help"
+        android:title="@string/help"
+        android:orderInCategory="50"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/menu_export"
+        android:title="@string/export_archive"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+<RelativeLayout
+    android:id="@+id/relativeLayoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+<TextView
+    android:id="@+id/textViewHelpMainIcons"
+    style="@style/HelpColumnStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:text="@string/main_screen_icons"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="@color/White" />
+
+<TextView
+    android:id="@+id/textViewHelpBegin"
+    style="@style/HelpColumnStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/textViewHelpMainIcons"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_toRightOf="@id/imageView1Shoot"
+    android:text="@string/help1Begin"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="@color/White" />
+
+<ImageView
+    android:id="@+id/imageView1Shoot"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/textViewHelpMainIcons"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:src="@drawable/b_shoot" />
+
+<TextView
+    android:id="@+id/textViewHelpBegin2"
+    style="@style/HelpColumnStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/textViewHelpBegin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_toRightOf="@id/imageView1Shoot"
+    android:text="@string/help1Begin2"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="@color/White" />
+
+<ImageView
+    android:id="@+id/imageView1Add"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/textViewHelpBegin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:src="@drawable/b_add" />
+
+<ImageView
+    android:id="@+id/imageView1View"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/textViewHelpBegin2"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:src="@drawable/b_view" />
+
+<TextView
+    android:id="@+id/textViewHelpBegin3"
+    style="@style/HelpColumnStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/textViewHelpBegin2"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_toRightOf="@id/imageView1View"
+    android:text="@string/help1Begin3"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="@color/White" />
+
+
+<TextView
+    android:id="@+id/textViewScoreNotes"
+    style="@style/HelpColumnStyle"
+    android:layout_below="@id/textViewHelpBegin3"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:text="@string/help2"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/textViewHelpNotes"
+        style="@style/HelpColumnStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewScoreNotes"
+        android:text="@string/help1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/White" />
+
+    <TableRow
+        android:id="@+id/tableRowScoreTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_below="@id/textViewHelpNotes"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:background="@color/Orange"
+        android:weightSum="3" >
+
+        <TextView
+            android:id="@+id/textViewAname"
+            style="@style/allscoreTextViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/archer_name"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewtotal"
+            style="@style/allscoreTextViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/total_score"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewDate"
+            style="@style/allscoreTextViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/date"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRowT1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tableRowScoreTop"
+        android:layout_below="@+id/tableRowScoreTop"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:background="#000000"
+        android:weightSum="5" >
+
+        <TextView
+            android:id="@+id/textViewT1"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT2"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT3"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT4"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT5"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tableRowScoreTop"
+        android:layout_below="@+id/tableRowT1"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:background="#1C1C1C" >
+
+        <TextView
+            android:id="@+id/textViewT6"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT7"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT8"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT9"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT10"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tableRowScoreTop"
+        android:layout_below="@+id/tableRow2"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:background="#000000" >
+
+        <TextView
+            android:id="@+id/textViewT11"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="11"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT12"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT13"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="13"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT14"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="14"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT15"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="15"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tableRowScoreTop"
+        android:layout_below="@+id/tableRow3"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:background="#1C1C1C" >
+
+        <TextView
+            android:id="@+id/textViewT16"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="16"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT17"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="17"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT18"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="18"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT19"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="19"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT20"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tableRowScoreTop"
+        android:layout_below="@+id/tableRow4"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:background="#000000" >
+
+        <TextView
+            android:id="@+id/textViewT21"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="21"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT22"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="22"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT23"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="23"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT24"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="24"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT25"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="25"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+    </TableRow>
+
+<TableRow
+    android:id="@+id/tableRow6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/tableRowScoreTop"
+    android:layout_below="@+id/tableRow4"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:background="#000000" >
+
+        <TextView
+            android:id="@+id/textViewT26"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="26"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT27"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="27"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT28"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="28"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT29"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="29"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+
+        <TextView
+            android:id="@+id/textViewT30"
+            style="@style/allscoreTextViewStyle"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:textAppearance="@style/allscoreTextViewStyle" />
+    </TableRow>
+
+
+
+<TextView
+    android:id="@+id/textViewChartNotes"
+    style="@style/HelpColumnStyle"
+    android:layout_below="@id/tableRow6"
+    android:text="@string/help4"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="@color/White" />
+
+<TextView
+    android:id="@+id/textViewShareNotes"
+    style="@style/HelpColumnStyle"
+    android:layout_below="@+id/textViewChartNotes"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:text="@string/help5"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="@color/White" />
+
+</RelativeLayout>
+
+</ScrollView>

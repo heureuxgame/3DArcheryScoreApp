@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tournament 3D Archery</string>
+    <string name="action_settings">Beállítások és funkciók</string>
+    <string name="shoot_name">Verseny neve</string>
+    <string name="course_name">Verseny tipusa</string>
+    <string name="number_of_targets">Célok száma</string>
+    <string name="save_course">Pálya mentése</string>
+    <string name="save_archer">Íjász mentése</string>
+    <string name="save_score">Pontok mentése</string>
+    <string name="archer_name">Íjász neve</string>
+    <string name="bow_type">Íj tipusa</string>
+    <string name="division">Korosztály</string>
+    <string name="setup_shoot">Verseny beállítása</string>
+    <string name="home">Fõmenü</string>
+    <string name="delete">Törlés</string>
+    <string name="yes">Igen</string>
+    
+    <!-- Changed -->
+    <string name="email_text">Pontszámok exportálása Android app</string>
+    <string name="email_get_app">Töltsd le a Google Playrõl!</string>
+    <!-- Changed -->
+    
+    <string name="download">Letöltés</string>
+    <string name="email_subject">Archery Scores exportálása</string>
+    <string name="no">Nem</string>
+    <string name="attachment_error">Melléklet hiba.Akarja menteni az adatokat mielõtt elküldi azt?</string>
+    <string name="shoot_">Verseny:</string>
+    <string name="scoring_">Pontozás:</string>
+    <string name="course_">Pálya:</string>
+    <string name="csv_deleted">ArcheryScores.csv törlése Könyvtár exportálása külsõ tárolóra.</string>
+    <string name="csv_saved">ArcheryScores.csv mentése Könyvtár exportálása belsõ tárolóra.</string>
+    <string name="confirm_delete">Törlés megerõsítése</string>
+    <string name="clear_shoot">Verseny törlése</string>
+    <string name="confirm_clear">Törlés megerõsítése</string>
+    <string name="confirm_clear_shoot">Íjász és pontszámainak törlése?</string>
+    <string name="score">Pontok</string>
+    
+    
+    <string-array name="settingsMenuTitle">
+        <item>Jelenlegi verseny törlése</item>
+        <item>Exportálás fájlba</item>
+        <item>Archiválás exportálása</item>
+        <item>Minden törlése</item>
+        <item>Hangok</item>
+        <item>csv file törlése</item>
+        <item>Gyors bevitel</item>
+    </string-array>
+    <string-array name="settingsMenuSummary">
+        <item>Aktuális íjász és pontjainak törlése</item>
+        <item>Aktuális íjász pontjainak exportálása csv fileba</item>
+        <item>Archiválások exportálása csv fileba</item>
+        <item>Név javaslatok törlése beállítsokból</item>
+        <item>Hangeffektek engedélyezése tiltása</item>
+        <item>Mentett adatok törlése</item>
+        <item>Felhasználói beállítások csökkentése</item>
+    </string-array>
+    
+    <string name="select_bow_type">Íj tipus kiválsztása</string>
+    <string name="select_scoring">Pontozás kiválasztása</string>
+    <string name="target">Cél</string>
+    <string name="x">X</string>
+    <string name="name">Név</string>
+    <string name="total">Összpont</string>
+    <string name="thru">Lövés</string>
+    <string name="cr_yale">Copyright Yale Leiden 2013 ©</string>
+    <string name="help">Segítség</string>
+    <string name="select_division">Korosztály kiválasztása</string>
+    <string name="isaiah">Testvéreim, örüljetek, amikor különböző megpróbáltatásokat kell elviselnetek, 3 hiszen tudjátok, hogy ezek a nehézségek az Istenben való bizalmatokat és hiteteket teszik próbára. Ha pedig a hitetek kiállja a próbát, az kitartóvá tesz benneteket.</string>
+    <string name="active_archers">Jelenlegi íjász</string>
+    <string name="long_click_to_email">Lõlap archiválása és küldése,hosszú kattintásra</string>
+    <string name="has_completed_50">Elérte az 50 célt.Állítson be új versenyt a folytatáshoz</string>
+    <string name="has_completed_round">Vége a sorozatnak.Kattintson az OK-ra a folytatáshoz</string>
+    <string name="round_finished">Sorozat vége</string>
+    <string name="ok">OK</string>
+    <string name="archive">Mentés</string>
+    <string name="view_archive">Mentések mutatása</string>
+    <string name="scorecards">Lõlapok</string>
+    <string name="email_or_archive_cards">Lõlap küldése vagy mentése</string>
+    <string name="email">Email</string>
+    <string name="email_all">Összes lõlap küldése</string>
+    <string name="delete_archive_scorecard">Mentett lõlapok törlése?</string>
+    <string name="archived_scores">Mentett pontok</string>
+    <string name="scoring_percentage">Pontszámok százalékban</string>
+    <string name="archer_setup">Íjász adatai</string>
+    <string name="scores_archived">Pontok mentése</string>
+    <string name="select_score">Pontozás kiválasztása</string>
+    <string name="autocomplete_suggestions_cleared">Ajánlások törlése</string>
+    <string name="total_score">Teljes pontszám</string>
+    <string name="date">Dátum</string>
+    
+    <string name="export_to_file">Export fileba</string>
+    <string name="export_archive">Export mentése</string>
+    
+    <string name="app_rate">Értékelés</string>
+    <string name="app_rate_a">Ha tetszett az app</string>
+    <string name="app_rate_b">,kérlek értékeld.Köszönöm!</string>
+    
+    <!-- HELP SECTION -->
+    
+    
+    <!-- Changed -->
+    <string name="help1Begin">Hozzon létre egy eseményt,tipust,állítsa be a pontozást.</string>
+    <!-- Changed -->
+    <string name="help1Begin2">Adjon hozzá egy íjászt,íj tipusát,korosztályát.</string>
+    <!-- Changed -->
+    <string name="help1Begin3">Aktív lõlapok mutatása.Hosszú koppintás a lõlapon,mentés vagy megosztás.</string>
+    
+    <!-- Changed -->
+    <string name="main_screen_icons">Fõoldal ikonjai</string>
+    <string name="help1">Lõlap: Alul látható a lõlap a célok sorrendjében.Hosszú koppintásra elküldheti vagy archiválhatja a lõlapot.</string>
+    <string name="help2">Pontok beírása: Válassza ki az íjászt. A cél kiválasztása automatikus.Ha elõzõ pontszámot akar javítani válassza a célkiválasztót.</string>
+    <string name="help3">Mentett pontok láthatóak,lõlapként,listaként és összegzésként. Lõlap mentéséhez,hosszú koppintás és \'Mentés\'.</string>
+    <string name="help4">Mentés:  Mentett pontok láthatóak listaként,lõlapként és százalékosan.</string>
+    <string name="help5">Megosztás:  Eredmények megosztása másokkal is.</string>
+    <string name="this_is_your_first_target">Ez az elsõ cél</string>
+    <string name="you_have_completed_50_targets">Befejezett 50 célt!</string>
+    <string name="last_target_was">Ez volt az utolsó cél</string>
+    <string name="email_subject_archive">Mentett pontok exportja</string>
+    <string name="empty_scorecard">A lõlap üres</string>
+    <string name="total_targets">Összes cél: </string>
+    <string name="error_reporting">Hiba jelentés</string>
+    <string name="error_usage">Névtelen jelentés a hibákról és felhasználásról</string>
+    <string name="news">Ujdonságok</string>
+    <string name="t_scored">pontozás</string>
+    <string name="t_thru">lövés</string>
+    <string name="t_targets_at">célok</string>
+    <string name="score_stats">Pontok statisztikája:</string>
+    <string name="average">Átlag</string>
+    <string name="per_arrow">vesszõ átlag</string>
+    <string name="sms">SMS</string>
+    <string name="check_sd">Mentési hiba. Ellenõrizze az SD kártyát.</string>
+    <string name="sound_disabled">Hang tiltása</string>
+    <string name="sound_enabled">Hang engedélyezése</string>
+    <string name="fast_mode_enabled">Gyors mód engedélyezése</string>
+    <string name="fast_mode_disabled">Gyors mód tiltása</string>
+    
+    <string name="welcome_to_t3d">Üdvözlöm a Tournament 3D programban.</string>
+    <string name="press_setup_icon">Nyomja meg a beállítás ikonját a kezdéshez.</string>
+    <string name="change_background">Háttér cseréje</string>
+    
+    
+    <!--
+    Select DivisionKorosztály kiválasztása
+    MenFérfi
+    WomanNõ
+    Youth MenIfi fiú
+    Youth WomenIfi lány
+    Senior MenSenior férfi
+    Senior WomenSenior nõ
+    ChallengedNo need
+    AllNo need
+    NeededGyerek
+    Kadett
+    Mini
+    
+    Select bow type
+    CU
+    HU
+    CB
+    OL
+    TRRB
+    TRLB
+    BB
+    CRB
+    PB-HB
+-->
+
+</resources>
